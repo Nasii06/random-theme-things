@@ -1,12 +1,1 @@
-.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="698029381116756029"]) .header_c19a55 .username_c19a55 {
-    background: linear-gradient(90deg, rgba(191, 44, 105, 1) 0%, rgba(253, 29, 29, 1) 33.333%, rgba(252, 104, 49, 1) 66.667%, rgba(252, 176, 69, 1) 100%);
-    /* background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(191, 44, 105, 1) 25%, rgba(253, 29, 29, 1) 50%, rgba(252, 104, 49, 1) 75%, rgba(252, 176, 69, 1) 100%);  */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="949136597381709885"]) .header_c19a55 .username_c19a55 {
-    background: linear-gradient(90deg,rgba(241, 82, 127, 1) 0%, rgba(80, 225, 228, 1) 38.3%, rgba(0, 0, 0, 1) 38.31%, rgba(0, 0, 0, 1) 42.5%, rgba(183, 113, 231, 1) 43.51%, rgba(244, 211, 123, 1) 100%);
-    /* background: linear-gradient(90deg,rgba(241, 82, 127, 1) 0%, rgba(80, 225, 228, 1) 33%, rgba(183, 113, 231, 1) 67%, rgba(244, 211, 123, 1) 100%); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
