@@ -8,6 +8,7 @@
 	--gradient-dino: linear-gradient(133deg, rgba(66, 193, 207, 1) 0%, rgba(67, 209, 88, 1) 100%);
 	--gradient-tiny: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(241, 32, 44, 1) 0%, rgba(131, 58, 179, 1) 46%, rgba(134, 57, 175, 1) 0%, rgba(142, 55, 166, 1) 98%, rgba(149, 54, 158, 1) 98%, rgba(253, 29, 29, 1) 64%, rgba(220, 114, 252, 1) 39%);
 	--gradient-elgot: linear-gradient(90deg, rgba(255, 252, 252, 1) 0%, rgba(64, 64, 64, 1) 50%, rgba(255, 252, 252, 1) 100%);
+	--gradient-submarine: linear-gradient(90deg, rgba(0, 207, 72, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 
@@ -76,7 +77,16 @@
 	animation: var(--rotation-animation);
 	text-shadow: rgba(159, 158, 158, 1) 0 0 4px;
 }
-
+.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="1004832732574126151"]) .header_c19a55 .username_c19a55{
+	background: var(--gradient-submarine);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="1004832732574126151"]) .header_c19a55 .username_c19a55:hover{
+	background-size: 400% 400%;
+	animation: var(--rotation-animation);
+	text-shadow: rgba(107, 208, 98, 1) 0 0 4px;
+}
 
 @keyframes rotatehover {
 	0% {background-position: 0% 50%;}
