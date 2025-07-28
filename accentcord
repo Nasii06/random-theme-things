@@ -1,3 +1,5 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
 :root {
     --accent-main-color:57,104,248;
     --transparent-accent-main:var(--accent-main-color),0.5;
@@ -8,7 +10,7 @@
     --bgfaketransparentlight: rgba(225,225,227,1);
     --bgmainlight:rgba(255,255,255,1);
 }
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
+
 /*global*/
 .title__85643 svg path {
     fill: rgb(var(--accent-main-color)); /*top of screen discord logo*/
