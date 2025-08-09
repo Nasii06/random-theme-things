@@ -8,7 +8,10 @@
 	--gradient-dino: linear-gradient(133deg, rgba(66, 193, 207, 1) 0%, rgba(67, 209, 88, 1) 100%);
 	--gradient-tiny: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(241, 32, 44, 1) 0%, rgba(131, 58, 179, 1) 46%, rgba(134, 57, 175, 1) 0%, rgba(142, 55, 166, 1) 98%, rgba(149, 54, 158, 1) 98%, rgba(253, 29, 29, 1) 64%, rgba(220, 114, 252, 1) 39%);
 	--gradient-elgot: linear-gradient(90deg, rgba(255, 252, 252, 1) 0%, rgba(64, 64, 64, 1) 50%, rgba(255, 252, 252, 1) 100%);
-	--gradient-submarine: linear-gradient(90deg, rgba(0, 207, 72, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+	--gradient-submarine: linear-gradient(90deg, rgba(207, 0, 7, 1) 0%, rgba(201, 32, 66, 1) 52%, rgba(204, 39, 108, 1) 76%, rgba(212, 104, 135, 1) 77%, rgba(255, 255, 255, 1) 78%, rgba(255, 255, 255, 1) 90%, rgba(255, 255, 255, 1) 92%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+	--gradient-submarine2: linear-gradient(90deg, rgba(207, 0, 7, 1) 0%, rgba(199, 87, 134, 1) 52%, rgba(212, 104, 133, 1) 79%, rgba(237, 83, 193, 1) 100%);
+	--gradient-submarine3: linear-gradient(90deg, rgba(0, 207, 72, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+	--gradient-sam: linear-gradient(45deg, rgba(0, 181, 121, 1) 0%, rgba(67, 128, 240, 1) 100%);
 }
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 /* .message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="698029381116756029"],[src*="911352044382748732"]) .header_c19a55 .username_c19a55{
@@ -113,7 +116,20 @@
 .message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="1004832732574126151"]) .header_c19a55 .username_c19a55:hover{
 	background-size: 400% 400%;
 	animation: var(--rotation-animation);
-	text-shadow: rgba(107, 208, 98, 1) 0 0 4px;
+	text-shadow: #fff 0 0 4px;
+/*	text-shadow: rgba(107, 208, 98, 1) 0 0 4px;*/
+}
+.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="649809010824052737"]) .header_c19a55 .username_c19a55{
+    font-family: "Pixelify Sans";
+    font-size: large;
+	background: var(--gradient-sam);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.message__5126c.wrapper_c19a55 .contents_c19a55:has(.avatar_c19a55[src*="649809010824052737"]) .header_c19a55 .username_c19a55:hover{
+	background-size: 400% 400%;
+	animation: var(--rotation-animation);
+	text-shadow: #219ab4 0 0 4px;
 }
 
 @keyframes rotatehover {
