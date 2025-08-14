@@ -224,7 +224,7 @@
     background: var(--text-default);
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
-	text-shadow: #214fe4 0 0 4px;
+	text-shadow: #0000 0 0 0px;
 }
 @keyframes linearhover {
 	0% {background-position: 0% 50%;}
